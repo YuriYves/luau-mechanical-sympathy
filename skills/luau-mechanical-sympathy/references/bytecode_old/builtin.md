@@ -1,0 +1,123 @@
+This document presents, as of now, all the built-in function ids used in `FASTCALL`. The source can be found within the `luau-lang` repository, at `Common/include/luau/Bytecode.h`.
+
+## global
+*   `NONE`
+*   `ASSERT`
+*   `TYPE`
+*   `TYPEOF`
+*   `TONUMBER`
+*   `TOSTRING`
+
+## math.
+*   `MATH_ABS`
+*   `MATH_ACOS`
+*   `MATH_ASIN`
+*   `MATH_ATAN2`
+*   `MATH_ATAN`
+*   `MATH_CEIL`
+*   `MATH_COSH`
+*   `MATH_TAN`
+*   `MATH_TANH`
+*   `MATH_COS`
+*   `MATH_SINH`
+*   `MATH_SIN`
+*   `MATH_DEG`
+*   `MATH_RAD`
+*   `MATH_FLOOR`
+*   `MATH_CEIL`
+*   `MATH_SIGN`
+*   `MATH_ROUND`
+*   `MATH_MAX`
+*   `MATH_MIN`
+*   `MATH_CLAMP`
+*   `MATH_FMOD`
+*   `MATH_EXP`
+*   `MATH_FREXP`
+*   `MATH_LDEXP`
+*   `MATH_LOG`
+*   `MATH_LOG10`
+*   `MATH_MODF`
+*   `MATH_POW`
+*   `MATH_SQRT`
+*   `MATH_LERP`
+*   `MATH_ISINF`
+*   `MATH_ISFINITE`
+*   `MATH_ISNAN`
+
+## vector.
+*   `VECTOR`
+*   `VECTOR_MAGNITUDE`
+*   `VECTOR_NORMALIZE`
+*   `VECTOR_CROSS`
+*   `VECTOR_DOT`
+*   `VECTOR_FLOOR`
+*   `VECTOR_CEIL`
+*   `VECTOR_CLAMP`
+*   `VECTOR_MAX`
+*   `VECTOR_MIN`
+*   `VECTOR_ABS`
+*   `VECTOR_SIGN`
+*   `VECTOR_LERP`
+
+## bit32.
+*   `BIT32_ARSHIFT`
+*   `BIT32_BAND`
+*   `BIT32_BNOT`
+*   `BIT32_BOR`
+*   `BIT32_BXOR`
+*   `BIT32_BTEST`
+*   `BIT32_EXTRACT`
+*   `BIT32_EXTRACTK`
+*   `BIT32_REPLACE`
+*   `BIT32_LROTATE`
+*   `BIT32_RROTATE`
+*   `BIT32_LSHIFT`
+*   `BIT32_RSHIFT`
+*   `BIT32_COUNTLZ`
+*   `BIT32_COUNTRZ`
+*   `BIT32_BYTESWAP`
+
+## buffer.
+*   `BUFFER_READI8`
+*   `BUFFER_READI16`
+*   `BUFFER_READI32`
+*   `BUFFER_READU8`
+*   `BUFFER_READU16`
+*   `BUFFER_READU32`
+*   `BUFFER_WRITEI8`
+*   `BUFFER_WRITEI16`
+*   `BUFFER_WRITEI32`
+*   `BUFFER_WRITEU8`
+*   `BUFFER_WRITEU16`
+*   `BUFFER_WRITEU32`
+*   `BUFFER_READF32`
+*   `BUFFER_READF64`
+*   `BUFFER_WRITEF32`
+*   `BUFFER_WRITEF64`
+*   `BUFFER_READINTEGER`
+*   `BUFFER_WRITEINTEGER`
+
+## string.
+*   `STRING_BYTE`
+*   `STRING_CHAR`
+*   `STRING_LEN`
+*   `STRING_SUB`
+
+## table.
+*   `TABLE_INSERT`
+*   `TABLE_UNPACK`
+*   `TABLE_CREATE`
+*   `TABLE_CLEAR`
+
+## raw
+*   `RAWSET`
+*   `RAWGET`
+*   `RAWEQUAL`
+*   `RAWLEN`
+
+## metatable
+*   `GETMETATABLE`
+*   `SETMETATABLE`
+
+## select
+*   `SELECT_VARARG`
